@@ -3,6 +3,8 @@
 // Date: 09 April 2026
 // Description: JavaScript logic for generating random stories
 
+// update
+
 const customName = document.getElementById("custom-name");
 const generateBtn = document.querySelector(".generate");
 const story = document.querySelector(".story");
