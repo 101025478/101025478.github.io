@@ -2,7 +2,7 @@
 // File: main.js
 // Date: 09 April 2026
 // Description: Image gallery functionality using JavaScript following MDN tutorial
-// updated gallery logic
+// updated gallery logics
 
 const displayedImage = document.querySelector(".displayed-img");
 const thumbBar = document.querySelector(".thumb-bar");
