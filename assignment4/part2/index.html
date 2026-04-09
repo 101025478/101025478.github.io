@@ -13,20 +13,27 @@ Description: Image gallery using JavaScript following MDN tutorial
   <title>Image Gallery</title>
 
   <style>
-  .thumb-bar {
-    margin-top: 20px;
-  }
-
   .thumb-bar img {
     width: 100px;
-    height: auto;
-    margin-right: 5px;
     cursor: pointer;
   }
 
   .displayed-img {
     width: 500px;
     display: block;
+  }
+
+  .full-img {
+    position: relative;
+    width: 500px;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 500px;
+    height: 100%;
   }
 </style>
 
