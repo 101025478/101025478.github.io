@@ -2,6 +2,7 @@
 // File: main.js
 // Date: 09 April 2026
 // canvas setup for animation
+// animation loop for bouncing balls
 // Description: Bouncing balls using JavaScript (MDN)
 
 const canvas = document.querySelector("canvas");
